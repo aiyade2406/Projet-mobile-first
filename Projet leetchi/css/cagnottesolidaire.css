@@ -1,0 +1,227 @@
+
+@charset "utf-8";
+@font-face
+{
+	font-family: 'poppins';
+	src: url('fonts/poppins-light-webfont.eot');
+	src: url('fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/poppins-light-webfont.woff2') format('woff2'),url('fonts/poppins-light-webfont.woff') format('woff'),url('fonts/poppins-light-webfont.ttf') format('truetype'),url('fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	font-family: 'poppins' !important;
+}
+
+body
+{
+	max-width: 516px;
+	background-image: url("img/Liste\ cagnotte\ solidaire.png");
+	background-repeat: no-repeat;
+	background-size: 516px 100%;
+	margin: 0px !important;
+}
+
+header .souligner
+{
+	text-decoration: underline;
+}
+
+nav
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+header
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+.premiereligne
+{
+	display: flex;
+	align-items: flex-end;
+}
+
+/* mini image represente la petit image sur la nav */
+.miniimage
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+}
+
+header .logo
+{
+	width: 300px;
+	height: 100px;
+}
+
+.premiereligne svg
+{
+	position:absolute;
+	left: 96%;
+}
+
+header .logo img
+{
+	width: 100%;
+}
+
+header img
+{
+	width: 100%;
+}
+
+main .containmain
+{
+	background-color: rgb(215, 212, 220);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	border-radius: 10%;
+	opacity: 0.8;
+	padding: 10px;
+}
+
+main .containmain figure
+{
+	width: 15%;
+}
+
+main .containmain figure img
+{
+	width: 100%;
+	border-radius: 50%;
+}
+
+main .containmain .image
+{
+	width: 100%;
+	display: flex;
+	padding-left: 20%;
+}
+
+main .containmain h1
+{
+	margin-right: 15%;
+}
+
+main .containmain .image .verifier
+{
+	background-color: rgb(137, 199, 211);
+	color: white;
+	border-radius: 12px;
+	height: 18px;
+	padding: 1px;
+	margin-right: 10%;
+}
+
+main .containmain .boutonrouge
+{
+	background-color: red;
+	border-radius: 12px;
+	padding: 2px;
+	font-size: 10px;
+	margin: 8px;
+}
+
+main .containmain .participant
+{
+	text-align: center;
+	font-size: 17px;
+}
+
+main .containmain .boutonorange
+{
+	background-color: rgba(238, 151, 69, 0.943);
+	border-radius: 17px;
+	padding: 10px;
+	font-size: 15px;
+	width: 21%;
+	color: white;
+	text-align: center;
+}
+
+footer
+{
+	background-color: #a7d328;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+
+.devise
+{
+	background-color: white;
+	padding: 6px;
+	width: 10%;
+	border-radius: 20px;
+	text-align: center;
+}
+
+ul
+{
+	display:flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.listehaut
+{
+	width: 100%;
+	display: flex;
+	padding-left: 10%;
+}
+
+.listebas
+{
+	width: 100%;
+	display: flex;
+	padding-left: 10%;
+}
+
+li
+{
+	width: 50%;
+	list-style: none;
+	font-size: 26px;
+	color: white;
+}
+
+.liste_reseaux
+{
+	display: flex;
+	width: 100%;
+}
+
+.liste_reseaux figure
+{
+	width: 20%;
+	height: 60%;
+}
+
+.liste_reseaux figure img
+{
+	width: 30px;
+}
+
+li a
+{
+	text-decoration: none;
+	color: white;
+}

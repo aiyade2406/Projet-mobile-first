@@ -1,0 +1,267 @@
+
+@charset "utf-8";
+
+@font-face
+{
+	font-family: 'poppins';
+	src: url('fonts/poppins-light-webfont.eot');
+	src: url('fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/poppins-light-webfont.woff2') format('woff2'),url('fonts/poppins-light-webfont.woff') format('woff'),url('fonts/poppins-light-webfont.ttf') format('truetype'),url('fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	font-family: 'poppins' !important;
+}
+
+body
+{
+	max-width: 516px;
+	background-image: url("img/creation_de_compte.png");
+	background-repeat: no-repeat;
+	background-size: 516px 100%;
+	margin: 0px !important;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header h2
+{
+	width: 100%;
+	text-align: center;
+	color: green;
+}
+
+nav
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+header h1
+{
+	font-size: 25px;
+	text-align: center;
+}
+
+header figure
+{
+	width: 15%;
+	height: 100px;
+}
+
+header figure img
+{
+	width: 100%;
+}
+
+header .logo
+{
+	width: 300px;
+	height: 100px;
+	margin-bottom: 40px;
+}
+
+.nav_centre
+{
+	margin-left: 40px;
+}
+
+.nav_gauche
+{
+	border-bottom: 1px solid black;
+}
+
+.nav_droite
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main
+{
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	flex-direction: column;
+	height: 150vh;
+	width: 100%;
+}
+
+fieldset
+{
+	width: 85%;
+	border-radius: 10%;
+	background-color: #D9D4D4;
+	border: none;
+	opacity: 0.8;
+}
+
+form
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input
+{
+	width: 90%;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 18px;
+	border: none;
+margin:10px  }
+
+input[type="submit"]
+{
+	width: 20%;
+	background-color:rgb(235, 159, 19);
+	color: white;
+}
+
+.continuez_reseaux
+{
+	width: 40%;
+	background-color: rgb(140, 212, 68);
+	color: white;
+	font-size: 20px;
+	border-radius: 20px;
+	padding: 12px;
+	margin: 16px;
+	text-align: center;
+}
+
+label
+{
+	width: 90%;
+	padding-bottom: 10px;
+	font-size: 21px;
+}
+
+textarea
+{
+	width: 90%;
+	height: 150px;
+	font-size: 18px;
+	border-radius: 18px;
+	border: none;
+}
+
+/* circle represente cercle dans le formulaire */
+.circle
+{
+	background-color: white;
+	width: 110px;
+	height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+/* circle represente le cercle dans le cercle */
+.sous_cercle
+{
+	border: 1px solid black;
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sous_cercle img
+{
+	width: 60%;
+	height: 60%;
+}
+
+.cliquez
+{
+	font-size: 20px;
+	padding: 6px;
+}
+
+footer
+{
+	background-color: #a7d328;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.devise
+{
+	background-color: white;
+	padding: 6px;
+	width: 10%;
+	border-radius: 20px;
+	text-align: center;
+}
+
+ul
+{
+	display:flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.listehaut
+{
+	width: 100%;
+	display: flex;
+	padding-left: 10%;
+}
+
+.listebas
+{
+	width: 100%;
+	display: flex;
+	padding-left: 10%;
+}
+
+li
+{
+	width: 50%;
+	list-style: none;
+	font-size: 26px;
+	color: white;
+}
+
+.liste_reseaux
+{
+	display: flex;
+	width: 60%;
+	justify-content: center;
+}
+
+.liste_reseaux figure
+{
+	width: 20%;
+	height: 60%;
+}
+
+.liste_reseaux figure img
+{
+	width: 30px;
+}
+
+li a
+{
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins-light-webfont.eot');
+    src: url('fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('fonts/poppins-light-webfont.woff') format('woff'),
+         url('fonts/poppins-light-webfont.ttf') format('truetype'),
+         url('fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body
+{
+	font-family: 'poppins' !important;
+}
+
+body{
+    width: 516px;
+    background-image: url("img/Home_Creation_de_cagnotte.png");
+    background-repeat: no-repeat;
+    background-size: 516px 100%;
+    margin: 0px !important;
+   
+    
+}
+header .souligner{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+header{
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-bottom: 1px solid rgb(225, 122, 13);
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.premiereligne{
+
+    display: flex;
+    align-items: flex-end;
+  
+    
+}
+header .logo{
+    width: 300px;
+   
+    height: 100px;
+    margin-bottom: 40px;
+    
+
+}
+
+header .logo img{
+   width: 100%;
+    
+
+}
+
+header img{
+    width: 100%;
+    
+
+}
+header h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+header h2{
+    font-size: 25px;
+    text-align: center;
+    
+}
+header span{
+font-size: 15px;
+padding: 5px;
+}
+
+
+.nav_centre{
+    margin-left: 40px;
+    
+
+}
+.nav_gauche{
+    border-bottom: 1px solid black;
+  
+}
+.nav_droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connexion{
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 78%;
+    color: grey;
+}
+header h2{
+    width: 100%;
+    text-align: center;
+    color: green;
+    
+   
+}
+header h2{
+    width: 100%;
+    text-align: center;
+    color: green;
+
+   
+}
+
+
+.contain_cercle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.un{
+   
+    background-color: #a7d328;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.deux{
+   
+    background-color: #a7d328;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+
+}
+
+.trois{
+   
+    background-color: #a7d328;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+}
+
+.comment_ca_marche{
+    background-color: rgb(228, 162, 41);
+    color: white;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -8%;
+}
+main{
+    
+display: flex;
+justify-content: center;
+
+
+overflow: hidden;
+flex-direction: column;
+height: 100vh;
+
+
+width: 100%;
+
+
+}
+.miniimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 3%;
+    
+}
+
+
+  
+fieldset{
+    width: 90%;
+    border-radius: 10%;
+    background-color: #D9D4D4;
+    border: none;
+    
+  
+}
+
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bonhomme{
+    position: relative;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+    margin:10px
+
+  }
+
+  label {
+    width: 90%;
+    padding-bottom: 10px;
+    font-size: 21px;
+  }
+  textarea{
+    width: 90%;
+   height: 150px;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+  }
+
+main button{
+    background-color: rgb(218, 152, 73);
+    color: white;
+    border: none;
+    padding: 14px;
+    width: 20%;
+    border-radius: 17px;
+
+}
+
+footer{
+    background-color: #a7d328;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.devise{
+    background-color: white;
+   padding: 6px;
+   width: 8%;
+    border-radius: 20px;
+    text-align: center;
+}
+ul{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.svgbonhomme{
+    position: absolute;
+    left: 17%;
+    top: 5%;
+    
+}
+.listehaut{
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+}
+
+.listebas{
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+}
+li{
+width: 50%;
+list-style: none;
+font-size: 26px;
+
+color: white;
+}
+
+.liste_reseaux{
+    display: flex;
+    width: 100%;
+  
+}
+
+.liste_reseaux figure{
+    width: 20%;
+    height: 60%;
+
+}
+.liste_reseaux figure img{
+ width: 30px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+li a{
+    text-decoration: none;
+    color: white;
+}

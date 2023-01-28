@@ -1,0 +1,252 @@
+
+@charset "utf-8";
+@font-face
+{
+	font-family: 'poppins';
+	src: url('fonts/poppins-light-webfont.eot');
+	src: url('fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/poppins-light-webfont.woff2') format('woff2'),url('fonts/poppins-light-webfont.woff') format('woff'),url('fonts/poppins-light-webfont.ttf') format('truetype'),url('fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	font-family: 'poppins' !important;
+}
+
+body
+{
+	max-width: 516px;
+	background-image: url("img/Mes\ cagnottes_2.png");
+	background-repeat: no-repeat;
+	background-size: 516px 100%;
+	margin: 0px !important;
+}
+
+header
+{
+}
+
+header .souligner
+{
+	text-decoration: underline;
+}
+
+nav
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+header
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+.premiereligne
+{
+	display: flex;
+	align-items: flex-end;
+}
+
+/* mini image represente l'image dans la nav */
+.miniimage
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	right: 4%;
+	position: absolute;
+}
+
+header .logo
+{
+	width: 300px;
+	height: 100px;
+}
+
+.premiereligne svg
+{
+	position:absolute;
+	left: 96%;
+}
+
+header .logo img
+{
+	width: 100%;
+}
+
+header img
+{
+	width: 100%;
+}
+
+main
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.etat_cagnotte
+{
+	background-color: rgb(232, 155, 12);
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+
+.block
+{
+	background-color: rgb(224, 223, 223);
+	width: 90%;
+	height: 30%;
+	display: flex;
+	border-radius: 70px;
+	opacity: 0.8;
+	margin-bottom: 20px;
+}
+
+.block .photo
+{
+	width: 40%;
+}
+
+.block .photo img
+{
+	width: 80px;
+	height: 80px;
+}
+
+.block .containtexte
+{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+}
+
+.block .containtexte h2
+{
+	font-size: 18px;
+	height: 10%;
+	width: 100%;
+}
+
+.block .containtexte p
+{
+	font-size: 16px;
+	height: 10%;
+	width: 100%;
+}
+
+.block .containtexte .voir_la_cagnotte
+{
+	background-color: orange;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+	width: 50%;
+	font-size: 10px;
+	padding: 3px;
+	margin-left: 15%;
+}
+
+.block .containtexte h3
+{
+	font-size: 10px;
+	height: 10%;
+	width: 50%;
+}
+
+.block figure
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+}
+
+.block img
+{
+	width: 90%;
+	border-radius: 50%;
+	height: 80%;
+}
+
+footer
+{
+	background-color: rgb(140, 212, 68);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.devise
+{
+	background-color: white;
+	padding: 6px;
+	width: 10%;
+	border-radius: 20px;
+	text-align: center;
+}
+
+ul
+{
+	display:flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.listehaut
+{
+	width: 100%;
+	display: flex;
+	padding-left: 10%;
+}
+
+.listebas
+{
+	width: 100%;
+	display: flex;
+	padding-left: 10%;
+}
+
+li
+{
+	width: 50%;
+	list-style: none;
+	font-size: 26px;
+	color: white;
+}
+
+.liste_reseaux
+{
+	display: flex;
+	width: 100%;
+}
+
+.liste_reseaux figure
+{
+	width: 20%;
+	height: 60%;
+}
+
+.liste_reseaux figure img
+{
+	width: 30px;
+}
+
+li a
+{
+	text-decoration: none;
+	color: white;
+}
